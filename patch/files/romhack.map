@@ -1,0 +1,6 @@
+
+.dummy section layout
+  Starting        Virtual
+  address  Size   address
+  -----------------------
+  00000000 000000 81200000  0 Workaround for Dolphin's bad symbol map loader

@@ -1,0 +1,217 @@
+#
+#
+#
+
+5		# number of courses
+
+
+
+{
+	name		tutorial
+	course		maps/tutorial
+	stage		maps/tutorial
+	model		pra_sample.bmd
+	collision	collision.bin
+	waterbox	waterbox.txt
+	mapcode		mapcode.bin
+	route		route.txt
+	start		-357.18	0	2900
+	startangle	150
+ 	end
+	#
+	#	LimitGenInfo (nonloop)
+	#
+	7
+		0-1.txt		0	1	1
+		1-4.txt		1	4	4
+		1-2.txt		1	2	2
+		2-2.txt		2	2	2
+		3-9.txt		3	9	9
+		5-29.txt	5	29	29
+		10-29.txt	10	29	29
+	#
+	#	LimitGenInfo (loop)
+	#
+	3
+		30-39.txt	30	39	39
+		40-49.txt	40	49	49
+		50-59.txt	50	59	59
+	#
+	#	CaveOtakara
+	#
+	4
+		{t_01}		3		tutorial_1.txt
+		{t_02}		16		tutorial_2.txt
+		{t_03}		15		tutorial_3.txt
+		{test}		0		caveinfo.txt
+	#
+	#	Ground Otakara
+	#
+	7
+}
+
+{
+	name		forest
+	course		maps/forest
+	stage		maps/forest
+	model		forest.bmd
+	collision	collision.bin
+	waterbox	waterbox.txt
+	mapcode		mapcode.bin
+	route		route.txt
+	start		381.724 -70.880 2634.461
+	startangle	180
+ 	end
+	#
+	#	LimitGenInfo (nonloop)
+	#
+	5
+		0-9.txt		0	9	9
+		0-29.txt	0	29	29
+		3-29.txt	3	29	29
+		6-29.txt	6	29	29
+		10-29.txt	10	29	29
+	#
+	#	LimitGenInfo (loop)
+	#
+	3
+		30-39.txt	30	39	39
+		40-49.txt	40	49	49
+		50-59.txt	50	59	59
+	#
+	#	CaveOtakara
+	#
+	5
+		{f_01}		6		forest_1.txt
+		{f_02}		7		forest_2.txt
+		{f_03}		10		forest_3.txt
+		{f_04}		15		forest_4.txt
+		{test}		0		caveinfo.txt
+	#
+	#	Ground Otakara
+	#
+	7
+}
+
+{
+	name		yakushima
+	course		maps/yakushima
+	stage		maps/yakushima
+	model		yakushima.bmd
+	collision	collision.bin
+	waterbox	waterbox.txt
+	mapcode		mapcode.bin
+	route		route.txt
+	start		-369.326 80.000 974.444
+	startangle	99.695
+ 	end
+	#
+	#	LimitGenInfo (nonloop)
+	#
+	6
+		0-1.txt		0	1	1
+		0-29.txt	0	29	29
+		0-9.txt		0	9	9
+		10-29.txt	10	29	29
+		20-29.txt	20	29	29
+		3-3.txt		3	3	3
+	#
+	#	LimitGenInfo (loop)
+	#
+	3
+		30-39.txt	30	39	39
+		40-49.txt	40	49	49
+		50-59.txt	50	59	59
+	#
+	#	CaveOtakara
+	#
+	5
+		{y_01}		11		yakushima_1.txt
+		{y_02}		14		yakushima_2.txt
+		{y_03}		14		yakushima_3.txt
+		{y_04}		13		yakushima_4.txt
+		{test}		0		caveinfo.txt
+	#
+	#	Ground Otakara
+	#
+	7
+}
+
+
+{
+	name		last
+	course		maps/last
+	stage		maps/last
+	model		last.bmd
+	collision	collision.bin
+	waterbox	waterbox.txt
+	mapcode		mapcode.bin
+	route		route.txt
+	start		-3300		0	-850
+	startangle	-130
+	end
+	#
+	#	LimitGenInfo (nonloop)
+	#
+	1
+		0-1.txt		0	1	1
+	#
+	#	LimitGenInfo (loop)
+	#
+	0
+	#
+	#	CaveOtakara
+	#
+	3
+		{l_01}		17		last_1.txt
+		{l_02}		13		last_2.txt
+		{l_03}		21		last_3.txt
+	#
+	#	Ground Otakara
+	#
+	5
+}
+
+{
+	name		test_map
+	course		maps/newtest
+	stage		maps/newtest
+	model		newtest.bmd
+	collision	collision.bin
+	waterbox	waterbox.txt
+	mapcode		mapcode.bin
+	route		route.txt
+	start		0	0	0
+	startangle	0
+ 	end
+	#
+	#	LimitGenInfo (nonloop)
+	#
+	5
+		0-0.txt		0	0	0
+		1-1.txt		1	1	1
+		2-2.txt		2	2	2
+		3-3.txt		3	3	3
+		4-4.txt		4	4	4
+	#
+	#	LimitGenInfo (loop)
+	#
+	0
+	#
+	#	CaveOtakara
+	#
+	9
+		{tuci}		0		1
+		{mtal}		0		2
+		{conc}		0		3
+		{quen}		0		4
+		{dm_t}		0		keigo
+		{dm_m}		0		de
+		{dm_c}		0		sox
+		{king}		0		haru
+		{info}		0		haru
+	#
+	#	Ground Otakara
+	#
+	0
+}

@@ -1,0 +1,38 @@
+[Gecko]
+$Automatic Crash Handler
+04422218 60000000
+
+$Disable Demo Mode
+044323e0 90DF0238
+
+$Zukan stageMgr sprintf switcheroo
+04224b78 38C2BE98
+04224b84 7CA4002E
+
+$Fix Morimura's bad panic_f habits [Minty Meeo]
+043530a0 38a30da8
+043530a4 38630d98
+043724b0 38a323d8
+043724b4 386323fc
+04376fb4 38a323d8
+04376fb8 386323cc
+04377438 38a323d8
+0437743c 386323cc
+0437fc68 38a334a0
+0437fc6c 38633490
+04381908 38a3356c
+0438190c 38633540
+04391420 38a33e8c
+04391424 38634534
+0439689c 38a34708
+043968a0 38634914
+043a12f8 38a350a4
+043a12fc 38635098
+043a9e78 38a35538
+043a9e7c 38635528
+
+[Gecko_Enabled]
+$Automatic Crash Handler
+$Disable Demo Mode
+$Zukan stageMgr sprintf switcheroo
+$Fix Morimura's bad panic_f habits
